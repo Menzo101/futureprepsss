@@ -1,0 +1,118 @@
+/* MAIN HERO SECTION */
+.download-section {
+    max-width: 1300px;
+    width: 100%;
+    margin: 70px auto;
+    background-color: rgba(11, 52, 170, 1);
+    color: #ffffff;
+    padding: 70px 20px;
+    text-align: center;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+/* TEXT + TITLE */
+.download-content h1 {
+    font-size: 2.5rem;
+    line-height: 1.3;
+    font-weight: 700;
+}
+
+.downHigh {
+    color: orange;
+}
+
+/* CTA BUTTONS */
+.download-buttons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 12px 28px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+.btn img {
+    width: 30px;
+    height: 30px;
+
+
+}
+
+/* CIRCULAR IMAGES */
+.hero-images {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid white;
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 768px) {
+    .download-content h1 {
+        font-size: 2rem;
+    }
+
+    .circle {
+        width: 120px;
+        height: 120px;
+    }
+
+    .download-buttons {
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+
+    }
+
+    .btn {
+        padding: 12px 28px;
+        border-radius: 30px;
+        font-size: 1rem;
+        font-weight: 600;
+        display: block;
+        cursor: pointer;
+        border: none;
+        background-color: white;
+        color: black;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: fit-content;
+        transition: 0.3s ease;
+    }
+}

@@ -1,0 +1,252 @@
+/* Banner Section */
+.promo-banner {
+    position: relative;
+    margin-top: 70px;
+    background-color: #0047FF;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    height: 40vh;
+    padding: 30px 15px;
+
+
+}
+
+/* Background icons (faint pattern) */
+.promo-banner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url('../assets//images/resources.png'), url("../assets/images/tracking.png"), url("../assets/images/resources.png"), url("../assets/images/tracking.png"), url("../assets/images/resources.png");
+    background-size: 100px, 100px, 100px, 100px, 100px;
+
+    background-position: top left, top right, center center, bottom right, bottom left;
+
+    background-repeat: no-repeat;
+    width: 100%;
+    opacity: 0.08;
+    z-index: 0;
+    pointer-events: none;
+
+}
+
+.promo-content {
+    flex: 1;
+}
+
+.promocontentone h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+
+.promocontentone p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    line-height: 1.5;
+
+}
+
+
+
+#emailbox[type="email"] {
+
+    padding: 15px 15px;
+
+    width: 100%;
+    outline: none;
+    border-radius: 8px;
+    border: 2px solid skyblue;
+
+
+
+}
+
+.contentinput {
+    width: 80%;
+}
+
+
+.promocontenttwo {
+    flex: 1;
+    display: flex;
+    gap: 15px;
+
+
+}
+
+
+#snap {
+    font-weight: 400;
+    background-color: rgba(245, 183, 0, 1);
+
+    border: none;
+    padding: 7px 7px 7px 7px;
+    border-radius: 7px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    outline: 0;
+    color: white;
+    transition: 0.3s;
+    display: block;
+
+    width: 100px;
+
+
+}
+
+@media (max-width:768px) {
+    .promo-banner {
+        display: flex;
+        flex-direction: column;
+
+        gap: 10px;
+        width: 100%;
+
+
+    }
+
+    .promocontentone h1 {
+        font-size: 2rem;
+        font-weight: 700;
+
+
+        text-align: center;
+
+    }
+
+    .promocontentone p {
+        font-size: 1.1rem;
+
+        line-height: 1.5;
+        text-align: center;
+
+
+    }
+
+
+
+
+
+    .contentbtn,
+    button {
+        background-color: rgba(245, 183, 0, 1);
+        color: white;
+        border: none;
+        padding: 16px 20px 16px 20px;
+        border-radius: 8px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.3s;
+        display: block;
+        width: 100%;
+
+    }
+
+
+
+    #emailbox[type="email"] {
+        border: 2px solid white;
+        padding: 15px 15px;
+
+        outline: none;
+        width: 100%;
+        border-radius: 8px;
+
+
+
+    }
+
+
+
+    .promocontenttwo {
+
+        display: flex;
+
+        gap: 2rem;
+        align-items: center;
+
+    }
+
+    .contentinput {
+
+
+        font-family: Inter;
+        font-weight: 600;
+        font-style: Semi Bold;
+        font-size: 16px;
+        color: white;
+        line-height: 100%;
+
+    }
+
+    #snap {
+        display: block;
+
+    }
+
+}
+
+@media(max-width:480px) {
+    .promo-banner {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 5px;
+
+        padding: 15px 0 15px 15px;
+
+
+    }
+
+
+    .promocontentone {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+        flex-direction: column;
+    }
+
+    #emailbox[type="email"] {
+        border: 0.1px solid rgb(231, 223, 223);
+        padding: 15px 15px;
+
+        outline: none;
+        border-radius: 8px;
+
+
+
+    }
+
+
+    .promocontenttwo {
+
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+
+    }
+
+
+    .promocontentone p {
+        line-height: 1.5;
+    }
+
+    .contentbtn {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+}
