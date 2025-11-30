@@ -25,8 +25,8 @@ export const Home = () => {
               Your AI Learning <br /> Companion for the <br /> Future
             </h1>
             <p id="hero-paragraph">
-              Master WEAC/NECO exams, with an AI-powered tutor designed <br />{" "}
-              for African students. Learn smarter, faster, and with confidence
+              Master WEAC/NECO exams, with an AI-powered tutor designed <br />
+              for African students.Learn smarter, faster, and with confidence
               all in your phone.
             </p>
             <div className="hero-button">

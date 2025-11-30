@@ -135,17 +135,17 @@
     }
 
     .faq h1 {
-        font-size: 30px;
+        font-size: 28px;
         text-align: center;
-        line-height: 1.5;
-        padding: 10px 0;
+        line-height: 1.7;
+        padding: 5px 0;
 
 
 
     }
 
     .ola {
-        max-width: 97%;
+        width: 100%;
         margin: 15px 0;
         padding: 15px;
 
