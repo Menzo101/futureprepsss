@@ -46,7 +46,7 @@ export const Navbar = () => {
             </div>
           </ul>
         </nav>
-
+         
         <button className="hamburger" onClick={() => setOpen(!open)}>
           <span className={open ? "bar bar1 open" : "bar bar1"}>X</span>
           {/* <span className={open ? "bar bar2 open" : "bar bar2"}>X</span>

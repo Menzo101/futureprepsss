@@ -1413,10 +1413,10 @@ body {
         justify-content: flex-start;
 
         gap: 4rem;
-        height: 130vh;
+
         align-items: flex-start;
 
-        padding: 15px 0 0 15px;
+        /* padding: 20px 0 0 15px; */
         background-image: linear-gradient(to right, #eeebde, #eeebde);
 
     }
@@ -1443,7 +1443,7 @@ body {
         position: relative;
 
         flex: 1;
-
+        top: 5rem;
         width: 50%;
         display: flex;
         justify-content: flex-start;
@@ -1452,27 +1452,29 @@ body {
 
     .heroSectionTwo .circle {
         position: absolute;
-        width: 100%;
+        width: 350px;
+        height: 350px;
+        top: 0;
 
 
-        height: 40vh;
-        right: -10rem;
+        left: 8rem;
         background-color: #facc15;
         border-radius: 50%;
-        z-index: 1;
-        bottom: 4rem;
+        z-index: 0;
+
 
 
     }
 
     .heroSectionTwo img {
         position: relative;
-        width: 800px;
+        width: 100%;
         border-radius: 13%;
-        left: 128px;
-        bottom: 3rem;
+        left: 4rem;
+
+
         height: 50vh;
-        z-index: 3;
+        z-index: 50;
 
 
 
@@ -1486,6 +1488,16 @@ body {
         margin-top: 1rem;
         display: flex;
         gap: 15px;
+
+
+    }
+
+    .aside {
+        position: fixed;
+        z-index: 99;
+        top: 70%;
+        right: 0;
+
 
 
     }

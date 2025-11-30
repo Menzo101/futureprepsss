@@ -113,10 +113,6 @@ li {
         width: 100px;
     }
 
-    /* Hide desktop nav */
-    /* .nav-links {
-        display: none;
-    } */
 
     /* Slide-down mobile nav */
     .mobile-nav.active {
@@ -150,11 +146,7 @@ li {
         margin-top: 15px;
     }
 
-    header {
-        height: 100px;
 
-
-    }
 
     .logo h1 {
         font-size: 3rem;
@@ -268,17 +260,13 @@ li {
 
     .hamburger {
         display: flex;
-        justify-content: flex-end;
+
         color: white;
         font-size: 20px;
-        display: block;
-        width: 100px;
+
+
     }
 
-    /* Hide desktop nav */
-    /* .nav-links {
-        display: none;
-    } */
 
     /* Slide-down mobile nav */
     .mobile-nav.active {
@@ -312,10 +300,10 @@ li {
         margin-top: 15px;
     }
 
-    header {
+    /* header {
         padding: 5px;
-        height: 15vh;
-    }
+
+    } */
 
     .logo h1 {
         font-size: 28px;
@@ -337,5 +325,11 @@ li {
     .links {
         font-size: 16px;
 
+    }
+
+    header {
+
+        height: 70px;
+        max-width: 100%;
     }
 }
