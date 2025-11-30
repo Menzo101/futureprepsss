@@ -174,11 +174,11 @@
         align-items: center;
         flex-direction: column;
 
-        gap: 50px;
+        gap: 25px;
     }
 
-    .contact-container {
-        gap: 25px;
+    .contact-content {
+        padding: 0 0 0 10px;
     }
 
     .contact-content h1 {

@@ -132,7 +132,7 @@ export const Faq = () => {
                 id="design"
                 sx={{ width: "100%", flexShrink: 0 }}
               >
-                What makes FuturePrep AI different from past-questions apps?
+                What makes FuturePrep AI different
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
