@@ -936,7 +936,7 @@ body {
         align-items: flex-start;
         width: 100%;
         padding: 5rem 15px;
-        height: 165vh;
+
 
 
         background-image: linear-gradient(to right, #eeebde, #eeebde);
@@ -1406,6 +1406,7 @@ body {
 
 @media (max-width:480px) {
 
+
     .hero-container {
 
         display: flex;
@@ -1413,8 +1414,10 @@ body {
         justify-content: flex-start;
 
         gap: 4rem;
+        height: 150vh;
 
         align-items: flex-start;
+
 
         /* padding: 20px 0 0 15px; */
         background-image: linear-gradient(to right, #eeebde, #eeebde);
@@ -1442,10 +1445,11 @@ body {
 
         position: relative;
 
-        flex: 1;
-        top: 5rem;
-        width: 50%;
+
+        top: 0;
+        /* width: 50%; */
         display: flex;
+        top: 10rem;
         justify-content: flex-start;
 
     }
@@ -1457,7 +1461,7 @@ body {
         top: 0;
 
 
-        left: 8rem;
+        left: 2rem;
         background-color: #facc15;
         border-radius: 50%;
         z-index: 0;
@@ -1470,7 +1474,7 @@ body {
         position: relative;
         width: 100%;
         border-radius: 13%;
-        left: 4rem;
+        left: -4rem;
 
 
         height: 50vh;
@@ -1496,7 +1500,7 @@ body {
         position: fixed;
         z-index: 99;
         top: 70%;
-        right: 0;
+        left: -10px;
 
 
 

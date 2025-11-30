@@ -259,9 +259,10 @@ li {
 @media (max-width:480px) {
 
     .hamburger {
-        display: flex;
+        display: block;
 
-        color: white;
+
+        color: black;
         font-size: 20px;
 
 
@@ -300,10 +301,7 @@ li {
         margin-top: 15px;
     }
 
-    /* header {
-        padding: 5px;
 
-    } */
 
     .logo h1 {
         font-size: 28px;
@@ -330,6 +328,8 @@ li {
     header {
 
         height: 70px;
-        max-width: 100%;
+        display: flex;
+        width: 100%;
+        justify-content: center;
     }
 }
